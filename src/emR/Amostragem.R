@@ -1,5 +1,6 @@
 # Data Science em R
 iris
+
 # Dimensao
 dim(iris)
 #Funcoes de amostragem
@@ -70,6 +71,38 @@ amostraSist
 
   amostraSistIris = iris(amostraSist,)
   
+# Medidas de variabilidade e centralidade
+amostra1 = c(62, 58, 70, 65, 80)
+mean(amostra1)
+median(amostra1)
+quartis1 = quantile(amostra1)
+quartis1
+sd(amostra1)
+summary(amostra1)
+var(amostra1)
 
-  
-  iris
+
+amostra2 = c(63, 63, 63, 63, 63)
+mean(amostra2)
+median(amostra2)
+quartis2 = quantile(amostra2)
+quartis2
+sd(amostra2)
+var(amostra2)
+
+amostra3 = c(42, 65, 55, 78, 75)
+mean(amostra3)
+median(amostra3)
+quartis3 = quantile(amostra3)
+quartis3
+sd(amostra3)
+var(amostra3)
+
+amostra4 = c(68, 46, 85, 90, 56, 130)
+mean(amostra4)
+median(amostra4)
+quartis4 = quantile(amostra4)
+quartis4
+sd(amostra4)
+var(amostra4)
+
